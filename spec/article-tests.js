@@ -11,4 +11,8 @@ function testViewArticleSummary() {
 
 function testViewArticleUrl() {
   assert.isTrue(article.viewUrl() === "www.fakenews.com", "Article Url is returned")
-}
+};
+
+testViewArticleHeadline()
+testViewArticleSummary()
+testViewArticleUrl()
